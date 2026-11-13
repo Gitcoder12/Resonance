@@ -1,23 +1,15 @@
 # Resonance
 Route any prompt to the best LLM — cost, speed, quality, automatic.
 
+
 ---
 
-## Project handbook
+## AI-maintained project notes (secondary — 2026-11-13)
 
-- [Activity log](ACTIVITY_LOG.md) · [Feature upgrade plan](FEATURE_UPGRADE_PLAN.md)
-- [Company and team fit](COMPANY_FIT.md) · [README explanation draft](README_ADDENDUM_DRAFT.md)
-- [README quality checklist](README_QUALITY_CHECKLIST.md)
-- [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Agent skills](SKILLS.md)
+This section supplements the maintainer-authored README above; it does not replace or certify original claims.
 
-## Understanding the project
-
-### In plain language
-
-A model-routing service concept that chooses which language model to call based on the task's cost, speed and quality requirements.
-
-### Technical and research view
-
-Concept-stage; no runnable application is committed.
-
-For future work, see [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+- The current source tree, runtime configuration and executed tests are the implementation source of truth. Roadmap items and draft PRs are not shipped functionality.
+- Preserve original model configurations, benchmark inputs and user-provided data. Never substitute synthetic or placeholder records silently.
+- Record provider/model versions, prompt/configuration, seeds, latency/cost methodology, environment and reproducible test outputs for evaluation claims.
+- Mark unverified metrics and unsupported provider capabilities as unknown/unverified.
+- See [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) for independent model review instructions.
