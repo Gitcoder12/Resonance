@@ -30,3 +30,10 @@ This section supplements the maintainer-authored README above; it does not repla
 3. Add a reproducible evaluation dataset for quality, latency, and cost before claiming that one model is “best.”
 
 **Verification status:** source-tree inspection only; no runnable product or test suite verified.
+
+---
+
+## Examples Used
+- Routing a low-latency request to a fast model
+- Selecting a lower-cost model for a simple classification task
+- Comparing provider quality, latency, and cost on the same prompt
