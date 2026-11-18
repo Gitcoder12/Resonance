@@ -30,3 +30,21 @@ This section supplements the maintainer-authored README above; it does not repla
 3. Add a reproducible evaluation dataset for quality, latency, and cost before claiming that one model is “best.”
 
 **Verification status:** source-tree inspection only; no runnable product or test suite verified.
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `docs/portfolio-operating-kit-2026-11-13` | 4 ahead / 3 behind | Activity log, agent guidance, company-fit notes, contributor guide, feature plan, README support docs and skills |
+| `docs/project-status-2026-11-16-resonance` | 1 / 1 | Project status snapshot: `PROJECT_STATUS.md` |
+
+### Open pull requests observed during this audit
+
+- [PR #2 — project status snapshot](https://github.com/Gitcoder12/Resonance/pull/2)
+
+**Verification boundary:** Git metadata and changed paths only. Review PR head/base and CI before merging. No branches have been merged or deleted by this documentation update.
